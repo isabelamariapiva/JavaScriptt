@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+let qtdP = Number(prompt("Quantidade de camisetas P (R$10):"));
+let qtdM = Number(prompt("Quantidade de camisetas M (R$12):"));
+let qtdG = Number(prompt("Quantidade de camisetas G (R$15):"));
+
+let total = (qtdP * 10) + (qtdM * 12) + (qtdG * 15);
+alert("Valor total arrecadado: R$ " + total.toFixed(2));
+
+    </script>
+    
+</body>
+</html>
