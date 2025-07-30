@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+let salarioInicial = Number(prompt("Digite o salário do funcionário:"));
+let salarioAumento = salarioInicial * 1.15; // aumento de 15%
+let salarioFinal = salarioAumento * 0.92; // desconto de 8%
+
+alert(
+  "Salário inicial: R$ " + salarioInicial.toFixed(2) + 
+  "\nCom aumento: R$ " + salarioAumento.toFixed(2) + 
+  "\nSalário final: R$ " + salarioFinal.toFixed(2)
+);
+    </script>
+    
+</body>
+</html>
