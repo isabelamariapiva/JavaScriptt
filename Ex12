@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+let cotacaoDolar = Number(prompt("Digite a cotação atual do dólar (R$):"));
+let valorDolar = Number(prompt("Digite o valor em dólares (US$):"));
+
+let valorReal = cotacaoDolar * valorDolar;
+alert("Valor em reais: R$ " + valorReal.toFixed(2));
+    </script>
+    
+</body>
+</html>
