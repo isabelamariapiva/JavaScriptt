@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+let idade = Number(prompt("Digite sua idade:"));
+let preco = 100; // valor base
+
+if (idade < 12) {
+  preco *= 0.5; // 50% de desconto
+  alert("Criança - Valor com desconto: R$ " + preco.toFixed(2));
+} else if (idade >= 60) {
+  preco *= 0.7; // 30% de desconto
+  alert("Idoso - Valor com desconto: R$ " + preco.toFixed(2));
+} else {
+  alert("Adulto - Valor: R$ " + preco.toFixed(2));
+}
+
+    </script>
+    
+</body>
+</html>
